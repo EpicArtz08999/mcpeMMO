@@ -4,7 +4,7 @@ api: [1.0.0]
 description: A port of the Bukkit plugin mcMMO
 author: [Darunia18, Hexdro]
 
-main: main\Main
+main: main\mcpeMMO
 load: STARTUP
 
 commands:
