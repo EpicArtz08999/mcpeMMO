@@ -6,7 +6,6 @@ use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\Player;
 use pocketmine\plugin\PluginBase;
-
 use mcpeMMO\api\exceptions\InvalidPlayerException;
 use mcpeMMO\api\exceptions\InvalidSkillException;
 use mcpeMMO\api\exceptions\InvalidXPGainReasonException;
@@ -33,8 +32,8 @@ use mcpeMMO\party\PartyManager;
 use mcpeMMO\party\ShareHandler;
 use mcpeMMO\skills\SkillManager; /* in the Skill Manager links all the other skills */
 
-class Main extends PluginBase{
-    
+class Main extends PluginBase implements Listener
+{
     public function onEnable(){
         $this->getLogger()->info("mcpeMMO has been enabled.");
     }
