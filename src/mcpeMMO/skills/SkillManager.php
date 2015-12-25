@@ -1,33 +1,33 @@
 <?php
-namespace mcpeMMO/skills;
+namespace MCPEMMO/skills;
 
-use mcpeMMO\skills\acrobatics\Acrobatics;
-use mcpeMMO\skills\acrobatics\AcrobaticsManager;
-use mcpeMMO\skills\archery\Archery;
-use mcpeMMO\skills\archery\ArcheryManager;
-use mcpeMMO\skills\archery\TrackedEntity;
-use mcpeMMO\skills\axes\Axes;
-use mcpeMMO\skills\axes\AxesManager;
-use mcpeMMO\skills\child\ChildConfig;
-use mcpeMMO\skills\child\FamilyTree;
-use mcpeMMO\skills\excavation\Excavation;
-use mcpeMMO\skills\excavation\ExcavationManager;
-use mcpeMMO\skills\herbalism\Herbalism;
-use mcpeMMO\skills\herbalism\HerbalismManager;
-use mcpeMMO\skills\repair\Repair;
-use mcpeMMO\skills\repair\RepairManager;
-use mcpeMMO\skills\salvage\Salvage;
-use mcpeMMO\skills\salvage\SalvageManager;
-use mcpeMMO\skills\smelting\Smelting;
-use mcpeMMO\skills\smelting\SmeltingManager;
-use mcpeMMO\skills\swords\Swords;
-use mcpeMMO\skills\swords\SwordsManager;
-use mcpeMMO\skills\taming\Taming;
-use mcpeMMO\skills\taming\TamingManager;
-use mcpeMMO\skills\unarmed\Unarmed;
-use mcpeMMO\skills\unarmed\UnarmedManager;
-use mcpeMMO\skills\woodcutting\Woodcutting;
-use mcpeMMO\skills\woodcutting\WoodcuttingManager;
+use MCPEMMO\skills\acrobatics\Acrobatics;
+use MCPEMMO\skills\acrobatics\AcrobaticsManager;
+use MCPEMMO\skills\archery\Archery;
+use MCPEMMO\skills\archery\ArcheryManager;
+use MCPEMMO\skills\archery\TrackedEntity;
+use MCPEMMO\skills\axes\Axes;
+use MCPEMMO\skills\axes\AxesManager;
+use MCPEMMO\skills\child\ChildConfig;
+use MCPEMMO\skills\child\FamilyTree;
+use MCPEMMO\skills\excavation\Excavation;
+use MCPEMMO\skills\excavation\ExcavationManager;
+use MCPEMMO\skills\herbalism\Herbalism;
+use MCPEMMO\skills\herbalism\HerbalismManager;
+use MCPEMMO\skills\repair\Repair;
+use MCPEMMO\skills\repair\RepairManager;
+use MCPEMMO\skills\salvage\Salvage;
+use MCPEMMO\skills\salvage\SalvageManager;
+use MCPEMMO\skills\smelting\Smelting;
+use MCPEMMO\skills\smelting\SmeltingManager;
+use MCPEMMO\skills\swords\Swords;
+use MCPEMMO\skills\swords\SwordsManager;
+use MCPEMMO\skills\taming\Taming;
+use MCPEMMO\skills\taming\TamingManager;
+use MCPEMMO\skills\unarmed\Unarmed;
+use MCPEMMO\skills\unarmed\UnarmedManager;
+use MCPEMMO\skills\woodcutting\Woodcutting;
+use MCPEMMO\skills\woodcutting\WoodcuttingManager;
 
 public class SkillManager(
   //this will be added to later
